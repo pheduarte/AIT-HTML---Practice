@@ -1,0 +1,40 @@
+h1 {
+    color: #C70039;
+ 
+}
+
+img {
+    height: 200px;
+    width: 200px;
+}
+
+.logo {
+    height: 300px;
+    width: 450px;
+    display: block;
+    margin: auto;
+}
+
+.navigation {
+   text-align: left; 
+}
+
+.rainbow-line {
+    height: 5px;
+    width: 100%;
+    position: relative;
+    z-index: 2;
+    background-image: linear-gradient(to right, #f76570 0%, #f76570 8%, #f3a46b 8%, #f3a46b 16%, #f3a46b 16%, #ffd205 16%, #ffd205 24%, #ffd205 24%, #1bbc9b 24%, #1bbc9b 25%, #1bbc9b 32%, #14b9d5 32%, #14b9d5 40%, #c377e4 40%, #c377e4 48%, #f76570 48%, #f76570 56%, #f3a46b 56%, #f3a46b 64%, #ffd205 64%, #ffd205 72%, #1bbc9b 72%, #1bbc9b 80%, #14b9d5 80%, #14b9d5 80%, #14b9d5 89%, #c377e4 89%, #c377e4 100%)
+}
+
+.nav_background{
+    background-color: #942B15;
+    height: 30px;
+    text-align: center;
+}
+
+.nav_button {
+    color: antiquewhite;
+    
+    margin: auto;
+}
