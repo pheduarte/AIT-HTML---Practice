@@ -1,81 +1,134 @@
 html {
-    background-color: antiquewhite;
+  background-image: url(https://media.istockphoto.com/id/1405136378/vector/green-leaves-geometric-pattern.jpg?s=612x612&w=0&k=20&c=Fqo_cESrMnLFLLlmW-FzTtwfYkgJb6ytIs3zS6dIRwQ=);
+  position: sticky;
+  font-family: system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+    Oxygen, Ubuntu, Cantarell, "Open Sans", "Helvetica Neue", sans-serif;
 }
 
 body {
-    margin: 0px 40px 0px 40px;
-    background-color: white;
+  margin: 0 40px 0 40px;
+  background-color: white;
 }
-
 
 img {
-    height: 200px;
-    width: 200px;
-}
-
-.logo {
-    height: 300px;
-    width: 450px;
-    display: block;
-    margin: auto;
+  height: 50%;
+  width: 60%;
+  object-fit: cover;
+  display: flex;
+  margin: 0 auto;
+  margin-bottom: 5%;
 }
 
 .navigation {
-   text-align: center;
-   background-color: #942B15;
-   height: 30px; 
-   margin-bottom: 30px;
+  text-align: center;
+  background-color: #6b9080;
+  height: 70%;
+  margin-bottom: 5%;
+  font-size: 1.2rem;
 }
 
 nav.navigation ul {
-    padding-top: 5px;
+  padding: 1.5% 0 1.5% 0;
 }
 
 nav.navigation li {
-color: white;
-display: inline;
-margin-right: 20px;
+  color: white;
+  display: inline;
+  padding: 4px;
+}
 
+nav.navigation li:hover {
+  background-color: #cce3de;
+  transition: 0.6s;
+  height: 100%;
 }
 
 .rainbow-line {
-    height: 5px;
-    width: 100%;
-    position: relative;
-    z-index: 2;
-    background-image: linear-gradient(to right, #f76570 0%, #f76570 8%, #f3a46b 8%, #f3a46b 16%, #f3a46b 16%, #ffd205 16%, #ffd205 24%, #ffd205 24%, #1bbc9b 24%, #1bbc9b 25%, #1bbc9b 32%, #14b9d5 32%, #14b9d5 40%, #c377e4 40%, #c377e4 48%, #f76570 48%, #f76570 56%, #f3a46b 56%, #f3a46b 64%, #ffd205 64%, #ffd205 72%, #1bbc9b 72%, #1bbc9b 80%, #14b9d5 80%, #14b9d5 80%, #14b9d5 89%, #c377e4 89%, #c377e4 100%)
+  height: 5px;
+  width: 100%;
+  position: relative;
+  z-index: 2;
+  background-image: linear-gradient(
+    to right,
+    #f76570 0%,
+    #f76570 8%,
+    #f3a46b 8%,
+    #f3a46b 16%,
+    #f3a46b 16%,
+    #ffd205 16%,
+    #ffd205 24%,
+    #ffd205 24%,
+    #1bbc9b 24%,
+    #1bbc9b 25%,
+    #1bbc9b 32%,
+    #14b9d5 32%,
+    #14b9d5 40%,
+    #c377e4 40%,
+    #c377e4 48%,
+    #f76570 48%,
+    #f76570 56%,
+    #f3a46b 56%,
+    #f3a46b 64%,
+    #ffd205 64%,
+    #ffd205 72%,
+    #1bbc9b 72%,
+    #1bbc9b 80%,
+    #14b9d5 80%,
+    #14b9d5 80%,
+    #14b9d5 89%,
+    #c377e4 89%,
+    #c377e4 100%
+  );
 }
 
-.nav_background{
-    background-color: #942B15;
-    height: 30px;
-    text-align: center;
+.nav_background {
+  background-color: #6b9080;
+
+  text-align: center;
 }
 
 .navigation a {
-    text-decoration: none;
-    color: inherit;
-}
-
-section div {
-    display: inline-block;
-    margin-left: 20px;
-    border: 2px solid rgba(167, 77, 41, 0.26);
-    
-}
-
-section div p{
-    padding: 10px;
-}
-
-section div h3 {
-    padding-left: 10px;
-}
-
-section div img {
-    padding: 0px 0px 10px 10px; ;
+  text-decoration: none;
+  color: inherit;
 }
 
 section {
-    margin-bottom: 20px;
+  display: inline-flex;
+}
+
+section div {
+  border: 2px solid #eaf4f4;
+  height: 90%;
+  width: 30%;
+  margin: calc(10% / 6);
+}
+
+section p {
+  text-align: justify-all;
+}
+
+section div:hover {
+  border-color: #1bbc9b;
+  translate: 0.3% -0.3%;
+}
+
+section p {
+  padding: 0 5px;
+}
+
+section h3 {
+  display: flex;
+  justify-content: center;
+}
+
+/*
+button*/
+
+header div {
+  display: inline-block;
+  width: 100%;
+  height: 300px;
+  background-image: url(https://media.istockphoto.com/id/1467199120/photo/cup-of-coffee-with-smoke-and-coffee-beans-on-old-wooden-background.jpg?s=612x612&w=0&k=20&c=wlP2vZFdgsFvFhTGQGJ4MJgM7qCpiUkXzL7w1icHjus=);
+  background-size: cover;
+  background-position: center;
 }

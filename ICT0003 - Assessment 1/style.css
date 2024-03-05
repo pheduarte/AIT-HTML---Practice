@@ -1,0 +1,10 @@
+#actual_page {
+  border-bottom: 2px solid rgba(0, 0, 0, 0.08);
+  margin-top: 2em;
+  font-weight: 300;
+}
+
+#body-image {
+  height: 650px;
+  width: 500px;
+}
